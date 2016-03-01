@@ -5,7 +5,7 @@
     <title>Elasticsearch</title>
     <version>2.2.0</version>
     <authors>https://github.com/elasticsearch/elasticsearch/contributors</authors>
-    <owners>D. Stuart Freeman</owners>
+    <owners>Toby McLaughlin</owners>
     <summary>Distributed, scalable, real-time search and analytics engine.</summary>
     <description>Distributed, scalable, real-time search and analytics engine.</description>
     <projectUrl>https://www.elastic.co/products/elasticsearch</projectUrl>
@@ -13,6 +13,10 @@
     <licenseUrl>https://github.com/elasticsearch/elasticsearch/blob/v2.2.0/LICENSE.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://s10.postimg.org/41mrwi0ed/elasticsearch_logo_64x64.png</iconUrl>
+    <docsUrl>https://www.elastic.co/guide/index.html</docsUrl>
+    <projectSourceUrl>https://github.com/elastic/elasticsearch</projectSourceUrl>
+    <mailingListUrl>https://www.elastic.co/community</mailingListUrl>
+    <bugTrackerUrl>https://github.com/elastic/elasticsearch/issues</bugTrackerUrl>
     <dependencies>
       <dependency id="javaruntime" />
     </dependencies>
