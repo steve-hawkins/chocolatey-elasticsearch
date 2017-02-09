@@ -1,7 +1,13 @@
-package: FORCE
+package:
 	cpack package/elasticsearch.nuspec
 
-clean: FORCE
+install:
+	cinst -y elasticsearch --version=5.2.0 -source '.;chocolatey'
+
+uninstall:
+	cuninst elasticsearch --version=5.2.0
+
+clean:
 	rm *.nupkg
 
-FORCE:
+.PHONY: package install uninstall clean
